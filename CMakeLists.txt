@@ -36,7 +36,6 @@ target_include_directories(aprepro
   INTERFACE $<INSTALL_INTERFACE:include>)
 install(TARGETS aprepro EXPORT aprepro-targets)
 
-install(TARGETS aprepro EXPORT aprepro-targets)
 configure_file(aprepro-config.cmake.in
   "${PROJECT_BINARY_DIR}/aprepro-config.cmake" @ONLY)
 configure_file(aprepro-config-version.cmake.in
