@@ -1,3 +1,4 @@
+#include <cstdint>
 
 #line 3 "apr_scanner.cc"
 
@@ -986,7 +987,7 @@ static yyconst flex_int16_t yy_rule_linenum[102] = {
 #include <stack>
 #include <stdio.h>
 #include <string.h>
-#include <unistd.h>
+//#include <unistd.h>
 
 #include "apr_getline_int.h"
 #include "apr_scanner.h"

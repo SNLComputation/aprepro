@@ -102,10 +102,10 @@ struct termio new_termio, old_termio;
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <strings.h>
+//#include <strings.h>
 #include <sys/stat.h>
 #include <sys/types.h>
-#include <unistd.h>
+//#include <unistd.h>
 
 extern int kill(pid_t pid, int sig);
 

@@ -16,7 +16,7 @@
 #include <iostream>         // for operator<<, cerr, ostream
 #include <string>           // for allocator, operator+, etc
 #include <sys/stat.h>       // for stat, S_ISDIR
-#include <unistd.h>         // for close
+//#include <unistd.h>         // for close
 #include <vector>           // for vector
 
 #ifdef _WIN32
