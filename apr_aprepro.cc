@@ -19,7 +19,9 @@
 #include <stack>    // for stack
 #include <stdexcept>
 #include <string> // for string, operator==, etc
-//#include <unistd.h>
+#if defined(__APPLE__) || defined(__linux__)
+#include <unistd.h>
+#endif
 #include <vector> // for allocator, vector
 
 namespace {

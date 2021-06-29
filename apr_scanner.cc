@@ -987,7 +987,9 @@ static yyconst flex_int16_t yy_rule_linenum[102] = {
 #include <stack>
 #include <stdio.h>
 #include <string.h>
-//#include <unistd.h>
+#if defined(__APPLE__) || defined(__linux__)
+#include <unistd.h>
+#endif
 
 #include "apr_getline_int.h"
 #include "apr_scanner.h"
