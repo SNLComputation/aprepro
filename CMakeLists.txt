@@ -28,6 +28,7 @@ set(APREPRO_SOURCES
   )
 
 add_library(aprepro ${APREPRO_SOURCES})
+target_compile_features(aprepro PUBLIC cxx_std_11)
 set_target_properties(aprepro PROPERTIES
   PUBLIC_HEADER "${APREPRO_HEADERS}")
 target_include_directories(aprepro
